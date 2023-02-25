@@ -76,4 +76,5 @@ Project ini adalah sebuah project membuat aplikasi web menggunakan React.JS dan 
 ###
 
 Contributor 
-- Fakhri Permana: [https://github.com/kri1107](github/kri1107)
+
+- Fakhri Permana: [github/kri1107](https://github.com/kri1107)
