@@ -1,0 +1,25 @@
+*{
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.navbar{
+    padding: 10px 0 10px 0;
+}
+
+.navbar.color-active{
+    background-color: #212529;
+}
+
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/img/hero/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+
+.hero h1{
+    font-size: 3.125em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
