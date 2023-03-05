@@ -3,11 +3,7 @@
 }
 
 .navbar{
-    padding: 10px 0 10px 0;
-}
-
-.navbar.color-active{
-    background-color: #212529;
+    padding: 10px 0px 10px 0px;
 }
 
 .hero{
@@ -15,11 +11,18 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 100px;
+    padding-top: 140px;
+    margin-bottom: 10em;
 }
 
 .hero h1{
     font-size: 3.125em;
     margin-bottom: 10px;
     font-weight: bold;
+}
+.navbar-brand{
+    margin-left: 12px;
+}
+.gallery img{
+    height: 250px;
 }

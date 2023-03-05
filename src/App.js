@@ -9,15 +9,15 @@ import FooterComp from './components/FooterComp';
 function App() {
   return (<div>
 
+    <NavbarComp />
+
     <HeroComp />
 
     {/* Content */}
 
-     <NavbarComp />
-
     <GalleryComp />
-    {/* <ServicesComp />
-    <FaqComp /> */}
+    <ServicesComp />
+    {/* <FaqComp /> */}
 
     
     {/* <FooterComp /> */}

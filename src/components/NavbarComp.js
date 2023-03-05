@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import {NavDropdown, Navbar, Nav, Container} from "react-bootstrap";
 
+import KriLogo from '../assets/img/logo_kri_transparent.svg';
+
 const NavbarComp = () => {
 
     const [changeColor, setChangeColor] = useState(false);
@@ -18,10 +20,15 @@ const NavbarComp = () => {
     })
 
     return (
-    <div className="sticky-top">
-        <Navbar variant="dark" expand="lg" className={changeColor ? "color-active" : ""}>
+    <div>
+        <Navbar variant="dark" bg="dark" expand="lg" fixed="top">
         <Container>
-            <Navbar.Brand href="#home" className="fw-bold">kri.ap</Navbar.Brand>
+            <Navbar.Brand href="#home" className="fw-bold" class="navbar-title">
+                <img src={KriLogo}
+                width="64px"
+                height="64px"
+                class="navbar-brand" />
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto text-center">
