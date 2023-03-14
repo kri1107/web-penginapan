@@ -17,7 +17,7 @@ function App() {
 
     <GalleryComp />
     <ServicesComp />
-    {/* <FaqComp /> */}
+    <FaqComp />
 
     
     {/* <FooterComp /> */}
